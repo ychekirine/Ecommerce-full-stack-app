@@ -11,7 +11,7 @@ export class ProductService {
 
   constructor(private httpClient: HttpClient) { }
 
-  private apiUrl = "http://localhost:8080/api/products";
+  private apiUrl = "http://localhost:8080/api/products?";
   
 
   getData(): Observable<Product[]> {
